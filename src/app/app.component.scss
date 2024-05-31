@@ -1,0 +1,30 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .col-md-6 {
+    flex: 0 0 48%;
+    max-width: 48%;
+  }
+  
+  .mt-4 {
+    margin-top: 1.5rem;
+  }
+  
+  .mt-2 {
+    margin-top: 0.5rem;
+  }
+  
+  .ml-2 {
+    margin-left: 0.5rem;
+  }
+  
+  .d-inline-flex {
+    display: inline-flex;
+  }
+  
+  .mr-2 {
+    margin-right: 0.5rem;
+  }
+  
