@@ -1,3 +1,9 @@
+/* L'application utilise  RxJS et de ses opérateurs pour gérer efficacement les flux de données asynchrones .
+  En intégrant les observables et les opérateurs RxJS, nous gérons de manière transparente le flux de données, 
+  permettant des interactions fluides . L'utilisation des opérateurs RxJS nous permet de transformer, 
+  filtrer et combiner les flux de données facilement, améliorant ainsi les performances et la réactivité de l'application. 
+*/
+
 import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
