@@ -1,19 +1,41 @@
 # RxjsPoc
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.2.
+## Prérequis
 
-## Development server
+Assurez-vous d'avoir les éléments suivants installés sur votre système :
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Node.js : Version 20 ou plus.
+   node -v 
+npm : 10.2.4 ou plus.
+  npm -v
+Angular CLI : 18.0.2 ou plus 
+  ng --version
+## Dépendances
 
-## Code scaffolding
+npm install
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Débogage de l'Erreur 
 
-## Build
+ Assurez-vous que l'Angular CLI est correctement installé. Vous pouvez le réinstaller en utilisant :
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+    npm uninstall -g @angular/cli
+    npm cache clean --force
+    npm install -g @angular/cli
 
-## Further help
+ Si ça ne marche pas :
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+  Réinstaller les dépendances du projet:
+    rm -rf node_modules
+    npm install
+
+ Sinon : 
+
+  npm install --save-dev @angular-devkit/build-angular
+
+## Exécution de l'Application
+
+Démarrer le serveur de développement :
+ ng build 
+ ng serve 
+
+Cette commande démarre l'application sur `http://localhost:4200/ `  par défaut. 
