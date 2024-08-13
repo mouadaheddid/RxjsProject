@@ -4,18 +4,21 @@
 
 Assurez-vous d'avoir les éléments suivants installés sur votre système :
 
-Node.js : Version 20 ou plus
+Node.js : Version 20 ou plus :
 
-   node -v 
-npm : 10.2.4 ou plus
+    node -v 
+   
+npm : 10.2.4 ou plus :
 
-  npm -v
-Angular CLI : 18.0.2 ou plus 
+    npm -v
+  
+Angular CLI : 18.0.2 ou plus :
 
-  ng --version
+    ng --version
+  
 ## Dépendances
 
-npm install
+    npm install
 
 ## Débogage de l'Erreur 
 
@@ -34,7 +37,7 @@ npm install
 
  Sinon : 
 
-  npm install --save-dev @angular-devkit/build-angular
+    npm install --save-dev @angular-devkit/build-angular
 
 ## Exécution de l'Application
 
